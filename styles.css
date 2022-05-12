@@ -703,9 +703,9 @@ footer {
 
     .brand {
         position: relative;
-        top: 0.8rem;
-        left: 1rem;
-        font-size: 1.2rem;
+        top: 1rem;
+        margin-left: 0.7rem;
+        font-size: 1.5rem;
     }
 
     .about-us,
@@ -775,7 +775,7 @@ footer {
         position: relative;
         top: 0.8rem;
         left: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .about-us,
