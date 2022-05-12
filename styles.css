@@ -12,10 +12,6 @@ a {
     text-decoration: none;
 }
 
-*:focus {
-    outline: none;
-    box-shadow: none;
-  }
 
 .emphase-color {
     color: #D5F31F;
@@ -222,6 +218,7 @@ h3 {
     flex-direction: column;
     cursor: pointer;
 }
+
 
 .services-presentation img:hover {
     background-color: #053B44;
@@ -517,6 +514,8 @@ textarea::placeholder {
     cursor: pointer;
 }
 
+
+
 .slider-btn-left svg {
     width: 1.5rem;
     height: 1.5rem;
@@ -534,12 +533,6 @@ textarea::placeholder {
 .stroke-black {
     stroke: black;
 }
-
-
-
-
-
-
 
 .slider-btn-left img {
     width: 1.5rem;
@@ -655,8 +648,11 @@ footer {
     transform: scale(1.06);
     fill: #D5F31F;
 }
-
-
+.slider-btn-left:focus, .slider-btn-right:focus,
+.social-networks:focus,.services-presentation div:focus, .submit-input:focus, .call-location:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 
 @media (max-width:1200px) {
@@ -1144,4 +1140,6 @@ footer {
         height: 1rem;
         width: 1rem;
     }
+
+
 }
