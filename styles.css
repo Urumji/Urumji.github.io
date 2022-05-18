@@ -718,6 +718,14 @@ footer {
     .team-member-img, .title-member, .member-text-presentation {
         width : 15rem;
     }
+    .title-member {
+        font-size: 1.2rem;
+    }
+    
+    .member-text-presentation {
+
+        font-size: 1rem;
+    }
     
     .about-us,
     .services,
